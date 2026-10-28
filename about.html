@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About - Layout Sederhana</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.about-profile {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.about-profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.about-profile h2 {
+  margin: 15px 0 5px;
+}
+
+.about-profile p {
+  color: #888;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.portfolio-item {
+  flex: 1 1 280px;
+  border: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.portfolio-item h3 {
+  margin: 15px 0 10px;
+}
+
+.skill-bar {
+  background: #eee;
+  border-radius: 3px;
+  height: 20px;
+  margin: 5px 0 15px;
+  overflow: hidden;
+}
+
+.skill-bar span {
+  display: block;
+  height: 100%;
+  background: #428bca;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 10px;
+}
+</style>
+</head>
+<body>
+<div id="container">
+  <header>
+    <h1>About</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="artikel.html">Artikel</a>
+    <a href="about.html" class="active">About</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <section id="main" style="float:none; width:auto; padding:30px;">
+    <div class="about-profile">
+      <img src="PP pemerograman.png"  alt="Profile">
+      <h2>ASH SHIDDIQ AL MAY</h2>
+      <p>Mahasiswa Universitas Pelita Bangsa</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Deskripsi</h2>
+    <p style="line-height:25px; margin-top:10px;">
+      Saya adalah mahasiswa program studi Teknik Informatika di Universitas Pelita Bangsa.
+      Saya memiliki minat dalam pengembangan web, khususnya pada bidang front-end development
+      menggunakan HTML, CSS, dan JavaScript. Saya senang mempelajari hal-hal baru dan
+      berkontribusi dalam proyek-proyek kreatif.
+    </p>
+
+    <hr class="divider">
+
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="https://dummyimage.com/300/db7d25/fff.png" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Website profil perusahaan dengan HTML & CSS.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://dummyimage.com/300/3e73e6/fff.png" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Landing page responsif menggunakan CSS Grid.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://dummyimage.com/300/71e6d4/fff.png" alt="Project 3">
+        <h3>Project 3</h3>
+        <p>Form validasi dengan JavaScript.</p>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Keahlian</h2>
+    <div style="margin-top:15px;">
+      <p>HTML</p>
+      <div class="skill-bar"><span style="width:90%;">90%</span></div>
+      <p>CSS</p>
+      <div class="skill-bar"><span style="width:85%;">85%</span></div>
+      <p>JavaScript</p>
+      <div class="skill-bar"><span style="width:70%;">70%</span></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+  </footer>
+</div>
+</body>
+</html>

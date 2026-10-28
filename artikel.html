@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artikel - Layout Sederhana</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+  <header>
+    <h1>Artikel</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="artikel.html" class="active">Artikel</a>
+    <a href="about.html">About</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <section id="main" style="float:none; width:auto; padding:30px;">
+    <article class="entry">
+      <h2>Memahami CSS Box Model</h2>
+      <img src="https://dummyimage.com/150/428bca/fff.png" alt="">
+      <p>Box model adalah konsep fundamental dalam CSS yang terdiri dari margin, border, padding, dan content. Setiap elemen HTML dianggap sebagai kotak (box) yang menggunakan model ini untuk menghitung tata letaknya di halaman web.</p>
+    </article>
+
+    <hr class="divider">
+
+    <article class="entry">
+      <h2>CSS Float untuk Layout</h2>
+      <img src="https://dummyimage.com/150/3e73e6/fff.png" alt="" class="right-img">
+      <p>Property float memungkinkan elemen HTML dibuat seolah-olah mengambang di antara elemen lainnya. Dengan float, kita dapat membuat layout multi kolom seperti sidebar dan konten utama berdampingan secara horizontal.</p>
+    </article>
+
+    <hr class="divider">
+
+    <article class="entry">
+      <h2>HTML5 Semantic Elements</h2>
+      <img src="https://dummyimage.com/150/db7d25/fff.png" alt="">
+      <p>HTML5 menyediakan elemen semantik seperti header, nav, section, article, aside, dan footer yang membuat struktur dokumen lebih bermakna dan mudah dipahami oleh mesin pencari serta teknologi bantu seperti screen reader.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+  </footer>
+</div>
+</body>
+</html>
