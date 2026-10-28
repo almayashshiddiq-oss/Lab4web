@@ -1,33 +1,10 @@
-﻿# Dokumentasi Perubahan - Lab4Web
 
-Dokumen ini mencatat setiap perubahan pada proyek **Lab4Web (Praktikum CSS Layout)**.
-Setiap perubahan dijelaskan beserta tangkapan layar (screenshot) hasilnya.
-
-- **Mata Kuliah:** Pemrograman Web
-- **Materi:** CSS Layout (Box Element, Float, HTML5 Semantic)
-- **Nama:** Ash Shiddiq Al May
-- **Kampus:** Universitas Pelita Bangsa
-- **Screenshot:** diambil dengan Chrome headless, viewport 1280 x 900 px, dan disimpan di `docs/screenshots/`.
-
----
-
-## Daftar Perubahan
-
-| No | Commit | Perubahan | File | Gambar |
-|----|--------|-----------|------|--------|
-| 1 | `feat: latihan 1 - box element dengan float dan clear` | Box element: 3 div berjajar + div4 turun ke baris baru | `lab4_box.html` | [Lihat](#perubahan-1---box-element) |
-| 2 | `feat: layout sederhana halaman home` | Struktur layout: header, nav, hero, main, sidebar, footer | `lab4_layout/home.html`, `lab4_layout/style.css` | [Lihat](#perubahan-2---layout-sederhana-halaman-home) |
-| 3 | `feat: halaman artikel` | Halaman daftar artikel memakai style `.entry` | `lab4_layout/artikel.html` | [Lihat](#perubahan-3---halaman-artikel) |
-| 4 | `feat: halaman about, portfolio, dan skill bar` | Profil, deskripsi, portfolio grid, skill bar | `lab4_layout/about.html`, `lab4_layout/PP pemerograman.png` | [Lihat](#perubahan-4---halaman-about) |
-| 5 | `feat: halaman kontak dan form` | Info kontak + form (nama, email, subjek, pesan) | `lab4_layout/kontak.html` | [Lihat](#perubahan-5---halaman-kontak) |
-| 6 | `docs: dokumentasi perubahan dan screenshot` | README + dokumentasi + screenshot | `README.md`, `DOKUMENTASI.md`, `docs/` | [Lihat](#perubahan-6---dokumentasi) |
-
----
 
 ## Perubahan 1 - Box Element
+<img width="1280" height="76" alt="02-box-element-detail" src="https://github.com/user-attachments/assets/9c160f95-479d-4a2d-9eb0-de8a24f441a3" />
 
-**Commit:** `feat: latihan 1 - box element dengan float dan clear`
-**File:** `lab4_box.html`
+
+
 
 ### Penjelasan
 
@@ -62,22 +39,10 @@ div {
 - `padding: 10px` menambah ruang di dalam kotak, sehingga total lebar kotak
   bertambah (contoh penerapan box model).
 
-### Gambar
-
-Tampilan penuh halaman:
-
-![Box element - tampilan penuh](docs/screenshots/01-box-element.png)
-
-Detail area box (div1 - div4):
-
-![Box element - detail div](docs/screenshots/02-box-element-detail.png)
 
 ---
 
 ## Perubahan 2 - Layout Sederhana Halaman Home
-
-**Commit:** `feat: layout sederhana halaman home`
-**File:** `lab4_layout/home.html`, `lab4_layout/style.css`
 
 ### Penjelasan
 
@@ -124,30 +89,31 @@ Struktur utama:
 
 Halaman Home secara penuh:
 
-![Home - tampilan penuh](docs/screenshots/03-home.png)
+<img width="1280" height="1407" alt="03-home" src="https://github.com/user-attachments/assets/b4831413-8a16-4023-a398-8fcbadf8398a" />
 
 Detail hero panel:
 
-![Home - hero](docs/screenshots/04-home-hero.png)
+<img width="980" height="290" alt="04-home-hero" src="https://github.com/user-attachments/assets/3912c166-a3b0-4622-bb11-037a86ae8437" />
+
 
 Detail 3 box konten (float 33.33%):
 
-![Home - box content](docs/screenshots/05-home-box-content.png)
+<img width="660" height="280" alt="05-home-box-content" src="https://github.com/user-attachments/assets/79a45b1e-4ef3-476a-a454-526a1067c806" />
+
 
 Detail artikel dengan gambar mengambang:
 
-![Home - artikel](docs/screenshots/06-home-artikel.png)
+<img width="640" height="195" alt="06-home-artikel" src="https://github.com/user-attachments/assets/a4142d02-6876-4989-8514-dd5a327f6c7f" />
+
 
 Detail sidebar dan widget:
 
-![Home - sidebar](docs/screenshots/07-home-sidebar.png)
+<img width="300" height="552" alt="07-home-sidebar" src="https://github.com/user-attachments/assets/f380f11d-7b70-4008-97c9-8f6b0b8a721d" />
+
 
 ---
 
 ## Perubahan 3 - Halaman Artikel
-
-**Commit:** `feat: halaman artikel`
-**File:** `lab4_layout/artikel.html`
 
 ### Penjelasan
 
@@ -164,7 +130,7 @@ memakai lebar penuh (tanpa sidebar). Pemisah antar artikel memakai
 
 ### Gambar
 
-![Artikel - tampilan penuh](docs/screenshots/08-artikel.png)
+<img width="1280" height="1046" alt="08-artikel" src="https://github.com/user-attachments/assets/41b0a348-c2ec-4d9b-b14c-5327bf45a6d8" />
 
 ---
 
@@ -220,23 +186,23 @@ CSS tambahan ditulis di dalam `<style>` pada halaman ini:
 ### Gambar
 
 Halaman About secara penuh:
+<img width="1280" height="1694" alt="09-about" src="https://github.com/user-attachments/assets/ffb7aee6-7eb5-4855-8c26-bc477406c809" />
 
-![About - tampilan penuh](docs/screenshots/09-about.png)
 
 Detail portfolio grid (flexbox):
 
-![About - portfolio](docs/screenshots/10-about-portfolio.png)
+<img width="920" height="548" alt="10-about-portfolio" src="https://github.com/user-attachments/assets/96e35cd7-712f-467c-9d9b-74e92b40410a" />
+
 
 Detail skill bar (HTML, CSS, JavaScript):
 
-![About - keahlian](docs/screenshots/11-about-keahlian.png)
+<img width="920" height="154" alt="11-about-keahlian" src="https://github.com/user-attachments/assets/61f31ad3-fb97-415e-b7f4-093b3b59fb92" />
+
 
 ---
 
 ## Perubahan 5 - Halaman Kontak
 
-**Commit:** `feat: halaman kontak dan form`
-**File:** `lab4_layout/kontak.html`
 
 ### Penjelasan
 
@@ -281,78 +247,13 @@ CSS tambahan pada halaman ini:
 
 Halaman Kontak secara penuh:
 
-![Kontak - tampilan penuh](docs/screenshots/12-kontak.png)
+<img width="1280" height="1001" alt="12-kontak" src="https://github.com/user-attachments/assets/d6606f85-47f8-4d41-82e9-45599d59f2c6" />
+
 
 Detail form kontak:
 
-![Kontak - form](docs/screenshots/13-kontak-form.png)
+<img width="600" height="530" alt="13-kontak-form" src="https://github.com/user-attachments/assets/f4ad7a11-aa35-4763-b02e-a4e767208a02" />
+
+
 
 ---
-
-## Perubahan 6 - Dokumentasi
-
-**Commit:** `docs: dokumentasi perubahan dan screenshot`
-**File:** `README.md`, `DOKUMENTASI.md`, `docs/screenshots/*`
-
-### Penjelasan
-
-Menambahkan dokumentasi berupa:
-
-- `README.md` - ringkasan praktikum, materi, struktur file, dan tautan ke
-  dokumentasi perubahan.
-- `DOKUMENTASI.md` - penjelasan setiap perubahan beserta screenshot (dokumen ini).
-- `docs/screenshots/` - 13 gambar hasil tangkapan layar setiap halaman dan
-  detail CSS-nya.
-
-Dokumentasi ini memudahkan dosen/pembaca memahami **apa yang berubah, mengapa
-diubah, dan bagaimana hasil tampilannya** tanpa harus membuka satu per satu file.
-
----
-
-## Cara Melihat Riwayat Perubahan
-
-```bash
-# Melihat daftar commit
-git log --oneline
-
-# Melihat detail satu commit (kode + gambar yang ditambahkan)
-git show <hash-commit> --stat
-git show <hash-commit>
-
-# Membandingkan commit terakhir dengan sebelumnya
-git diff HEAD~1 HEAD
-```
-
-## Struktur Repositori
-
-```
-Lab4Web/
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ README.md
-â”œâ”€â”€ DOKUMENTASI.md
-â”œâ”€â”€ lab4_box.html
-â”œâ”€â”€ docs/
-â”‚   â””â”€â”€ screenshots/
-â”‚       â”œâ”€â”€ 01-box-element.png
-â”‚       â”œâ”€â”€ 02-box-element-detail.png
-â”‚       â”œâ”€â”€ 03-home.png
-â”‚       â”œâ”€â”€ 04-home-hero.png
-â”‚       â”œâ”€â”€ 05-home-box-content.png
-â”‚       â”œâ”€â”€ 06-home-artikel.png
-â”‚       â”œâ”€â”€ 07-home-sidebar.png
-â”‚       â”œâ”€â”€ 08-artikel.png
-â”‚       â”œâ”€â”€ 09-about.png
-â”‚       â”œâ”€â”€ 10-about-portfolio.png
-â”‚       â”œâ”€â”€ 11-about-keahlian.png
-â”‚       â”œâ”€â”€ 12-kontak.png
-â”‚       â””â”€â”€ 13-kontak-form.png
-â””â”€â”€ lab4_layout/
-    â”œâ”€â”€ home.html
-    â”œâ”€â”€ artikel.html
-    â”œâ”€â”€ about.html
-    â”œâ”€â”€ kontak.html
-    â”œâ”€â”€ style.css
-    â””â”€â”€ PP pemerograman.png
-```
-
-
